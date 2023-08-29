@@ -1,0 +1,177 @@
+@media only screen 
+and (min-width: 1025px) {
+    body {margin: 0; }
+
+    /* Header START */
+    header {
+        width: 100%;
+        max-width:1440px;
+        margin: auto;
+        height: 696px;
+        background: url("../img/Cover.png"), lightgray 50% / cover no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .headline {
+        margin-top: 32px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    nav {margin-right: 125px;}
+    nav ul {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+        gap: 35px;
+    }
+    nav ul li {
+        text-decoration: none;
+        color: #FFF;
+        font-family: 'Gentium Book Plus', serif;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        text-transform: uppercase;
+    }
+    .logoL {
+        width: 98px;
+        height: 153px;
+        margin-left: 125px;
+    }
+    .burgerManu {display: none;}
+
+    .txt {margin-bottom: 80px; margin-left: 93px; margin-right: 93px;}
+    .txt p {
+        color: #C0B4B4;
+        text-align: center;
+        font-family: Gentium Book Basic;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    /* Header E N D */
+
+    /* Section I START */
+
+    .secI {
+        padding-top: 48px;
+        margin: auto;
+        max-width:1440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background: #2A2626;
+        gap: 24px;;
+        padding-bottom: 48px;
+    }
+    .secI div.album { 
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        flex-shrink: 0;
+
+    }
+    .secI h1 { 
+        color: #FFF;
+        font-family: Gentium Book Basic;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;    
+    }
+    .secI img {
+        width: 315px;
+        height: 320px;
+        flex-shrink: 0;
+    }
+
+
+    /* Section I E N D */       
+     /* Section II STRAT */
+     .secII {
+        background: #0B0A0A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 42px;
+        margin: auto;
+        max-width:1440px;
+        height: 610px;
+        flex-shrink: 0;   
+    }
+    .secII_Content {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    .secII h1 {
+        color: #FFF;
+        font-family: Gentium Book Basic;
+        font-size: 48px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;        
+    }
+    .secII_ContentImg {
+        /* margin-left: 125px; */
+        width: 565px;
+        height:320px;
+        background: url("../img/Photo_04.png"), lightgray 50% / cover no-repeat;
+    }
+    .aboutContent {
+        /* margin-right: 125px; */
+        width: 565px;
+        height:320px;
+        text-align: justify;
+        background: #8E8B8B;
+    }
+    .aboutContent p {
+        margin: 60px 109px 30px 109px;
+        color: #FFF;
+        text-align: justify;
+        font-family: Gentium Book Basic;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;      
+    }
+    /* Section II E N D */
+
+    /* footer START */
+    footer {
+        margin: auto;
+        max-width:1440px;
+        height: 217px;
+        display: flex;
+        justify-content: space-between;
+        background: #2A2626;
+    }
+    .footerLogo {
+        margin-top: 32px;
+        margin-bottom: 32px;
+        margin-left: 125px;
+    }
+    .footerLogo img {width: 97px; height: 153px;}
+    .socialIcons {
+        margin-top: 80px;
+        margin-bottom: 77px;
+        margin-right: 125px;
+        display: flex;
+        justify-content: center;
+        gap: 49px;
+    }
+    .socialIcons img {width: 60px; height: 60px;}
+    /* footer E N D */
+}

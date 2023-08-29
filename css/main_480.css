@@ -1,0 +1,158 @@
+@media only screen and (max-width: 480px) {
+    body{margin: 0;}
+
+    /* Header START */
+    header {
+        width: 480px;
+        height: 696px;
+        background: url("../img/Cover.png"), lightgray 50% / cover no-repeat;
+        background-position: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .headline {
+        margin-top: 32px;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .headline nav {display: none;}
+
+    .headline :nth-child(1) {
+        width: 49px;
+        height: 76px;
+        margin-left: 30px;
+    }
+    .headline :nth-child(2) {
+        width: 53px;
+        height: 53px;
+        flex-shrink: 0;  
+        margin-right: 30px;      
+    }
+    .txt {margin-bottom: 96px;}
+    .txt p {
+        color: #C0B4B4;
+        text-align: center;
+        font-family: Gentium Book Basic;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+    /* Header E N D */
+
+    /* Section I START */
+
+    .secI {
+        padding-top: 48px;
+        width: 480px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        background: #2A2626;
+        gap: 24px;;
+        padding-bottom: 48px;
+    }
+    .secI div.album { 
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        gap: 24px;
+    }
+    .secI h1 {
+        color: #FFF;
+        font-family: Gentium Book Basic;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;        
+    }
+    .secI img {
+        width: 420px;
+        height: 400px;
+        flex-shrink: 0;
+    }
+
+
+    /* Section I E N D */
+
+    /* Section II STRAT */
+    .secII {
+        background: #0B0A0A;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+        width: 480px;
+        height: 760px;
+        flex-shrink: 0;        
+    }
+    .secII_Content {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .secII h1 {
+        color: #FFF;
+        font-family: Gentium Book Basic;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;        
+    }
+    .secII_ContentImg {
+        width: 420px;
+        height: 280px;
+        background: url("../img/Photo_04.png"), lightgray 50% / cover no-repeat;
+    }
+    .aboutContent {
+        width: 420px;
+        height: 280px;
+        flex-shrink: 0;        
+        text-align: justify;
+        background: #8E8B8B;
+    }
+    .aboutContent p{
+        margin: 40px;
+        color: #FFF;
+        text-align: justify;
+        font-family: Gentium Book Basic;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;        
+    }
+    /* Section II E N D */
+
+    /* footer START */
+    footer {
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        background: #2A2626;   
+        width: 480px;
+        height: 90px;
+        flex-shrink: 0;        
+    }
+    .footerLogo {display: none;}
+    .footerLogo img {display: none;}
+    .socialIcons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 49px;
+    }
+    .socialIcons img {width: 30px; height: 30px;}
+    /* footer E N D */
+}
